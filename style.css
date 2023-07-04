@@ -7,15 +7,12 @@ a{
     text-decoration: none;
 }
 
-a:visited{
-    color: #000;
-}
-
 .header{
     padding-top: 40px;
     padding-bottom: 84px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 375px;
 }
 
@@ -23,8 +20,13 @@ a:visited{
     color: #000;
 }
 
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+}
+
 .header__logo{
-    margin-right: 500px;
     margin-left: 375px;
 }
 
@@ -84,7 +86,11 @@ a:visited{
     margin-left: 400px;
     margin-right: 400px;
     margin-bottom: 100px;
-    
+    padding-top: 100px;
+}
+
+.ct-block{
+    padding-bottom: 25px;
 }
 
 .ct-block__logo{
@@ -94,20 +100,20 @@ a:visited{
 
 .ct-block__title{
     padding-bottom: 17px;
-    size: 24px;
+    font-size: 24px;
 }
 
 .ct-block__text{
     padding-bottom: 25px;
     max-width: 250px;
-    size: 15px;
+    font-size: 15px;
     color: #808080;
 }
 
-.read-more__link{
-    padding-bottom: 25px;    
-    size: 11px;
+.read-more__link{  
+    font-size: 11px;
     font-weight: bold;
+    color: #000;
 }
 
 .ct-block-shadow{
@@ -124,7 +130,7 @@ a:visited{
     padding-top: 92px;
     margin-bottom: 19px;
     text-align: center;
-    size: 45px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -150,6 +156,7 @@ a:visited{
     text-align: center;
     background: #fff;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .cb-block__title{
@@ -169,9 +176,9 @@ a:visited{
 
 .learn-more__link{
     background-color: #F25822;
-    border-color: transparent;
     border-radius:4em;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    color: #fff;
 }
